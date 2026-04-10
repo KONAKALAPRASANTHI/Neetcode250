@@ -13,19 +13,21 @@
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         return nums * 2
-
-Time Complexity: O(n)
-Space Complexity: O(n)
 ```
+### ⏱ Complexity
+- **Time:** O(n)
+- **Space:** O(n)
+---
 ### 🔁 Method 2 (Using `+`)
 ```python
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         return nums + nums
-
-Time Complexity: O(n)
-Space Complexity: O(n)
 ```
+### ⏱ Complexity
+- **Time:** O(n)
+- **Space:** O(n)
+---
 ### 🔁 Method 3 (Using Loop)
 ```python
 class Solution:
@@ -36,18 +38,19 @@ class Solution:
         for i in range(len(nums)):
             ans.append(nums[i])
         return ans
-
-Time Complexity: O(n)
-Space Complexity: O(n)
 ```
+### ⏱ Complexity
+- **Time:** O(n)
+- **Space:** O(n)
 ---
 
 ## ⚖️ Why Method 1 is Optimal?
 
 Even though all methods have the same time and space complexity:
 
-- **Time Complexity:** O(n)  
-- **Space Complexity:** O(n)
+### ⏱ Complexity
+- **Time:** O(n)
+- **Space:** O(n)
 
 Method 1 is considered optimal because:
 
