@@ -18,8 +18,9 @@ class Solution:
             seen.add(num)
         return False
 ```
-Time Complexity: O(n)
-Space Complexity: O(n)
+### ⏱ Complexity
+- **Time:** O(n)
+- **Space:** O(n)
 ---
 
 ### 🔁 Method 2 (Using List)
@@ -33,8 +34,9 @@ class Solution:
             seen.append(num)
         return False
 ```
-Time Complexity: O(n²) ❗
-Space Complexity: O(n)
+### ⏱ Complexity
+- **Time:**  O(n²) ❗
+- **Space:** O(n)
 ---
 
 ### 🔁 Method 3 (Sorting)
@@ -47,8 +49,9 @@ class Solution:
                 return True
         return False
 ```
-Time Complexity: O(n log n)
-Space Complexity: O(1)
+### ⏱ Complexity
+- **Time:** O(n log n)
+- **Space:** O(1)
 ---
 
 ### ❌ Method 4 (Brute Force - Fixed)
@@ -62,8 +65,9 @@ class Solution:
                     return True
         return False
 ```
-Time Complexity: O(n²)
-Space Complexity: O(1)
+### ⏱ Complexity
+- **Time:**  O(n²) ❗
+- **Space:** O(1)
 ---
 ---
 
