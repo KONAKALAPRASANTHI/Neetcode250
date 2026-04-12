@@ -45,6 +45,6 @@ class Solution:
 
         return prefix
 ```
-⏱️ Complexity Analysis
-Time Complexity: O(N × M)
-Space Complexity: O(1)
+### ⏱ Complexity
+- **Time:** O(n x m)
+- **Space:** O(1)
